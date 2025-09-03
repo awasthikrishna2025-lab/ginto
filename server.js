@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const OPENROUTER_API_KEY = "sk-or-123456789abcdef"; // 🔑 Apni key yahan paste karo
+const OPENROUTER_API_KEY = "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"; // 🔑 Apni key yahan paste karo
 
 app.post("/chat", async (req, res) => {
   try {
